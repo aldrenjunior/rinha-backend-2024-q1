@@ -2,7 +2,7 @@ version: "3.5"
 
 services:
   api01: &api
-    image: aldrenmartins/rinha-backend-2024-q1:1.0
+    image: aldrenmartins/rinha-backend-2024:latest
     hostname: api01
     environment:
       - DB_HOSTNAME=db
